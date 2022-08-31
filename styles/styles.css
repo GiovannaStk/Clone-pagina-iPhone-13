@@ -107,7 +107,7 @@ header .bottom-header .bottom-inner .links .btn {
   max-width: 1000px;
   margin: 3rem auto;
   opacity: 1;
-  transition: 0.5s;
+  transition: 0.1s;
 }
 .main-content #product-image.changing {
   opacity: 0.5;
@@ -156,6 +156,7 @@ header .bottom-header .bottom-inner .links .btn {
 }
 .main-content .image-picker ul .selected {
   outline: 1px solid #0071e3;
+  transform: scale(1.2);
 }
 @media (max-width: 480px) {
   header nav .navbar li {
